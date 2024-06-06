@@ -3,7 +3,7 @@
 	margin: 0;
 	padding:10;
 	box-sizing:border-box;
-	font-family:'dubai',sans-serif;
+	font-family:'Arial Rounded MT',sans-serif;
 }
 body
 {
@@ -35,16 +35,17 @@ position:absolute;
 .box
 {
 	position:relative;
-	top:10%;
+	top:1%;
     left:45%;
 	width:510px;
-	height:440px;
+	height:490px;
 	background:#D0CECE;
 	border-radius:70px;
 	overflow:hidden;
 	box-shadow:5px 5px 15px black;
 	
 }
+
 .borderLine
 {
 	position:absolute;
@@ -71,6 +72,8 @@ position:absolute;
 	text-align: center;
 	letter-spacing:0.1em;
 	font-size:3em;
+	 position:relative;
+	bottom:12%;
 }
  .box form .links
  {
@@ -82,12 +85,13 @@ position:absolute;
  {
 	 margin: 10px 0;
 	 font-size:0.75em;
+	 color:#8f8f8f;
 	 text-decoration:none;
  }
  .box form .links a:hover,
  .box form .links a:nth-child(4)
  {
-	 color:red;
+	 color:#fff;
  }
 button
  {
@@ -99,10 +103,11 @@ button
 	 font-size:0.9em;
 	 border-radius:10px;
 	 font-weight:600;
-	 width:100px;
-	 	  position:relative;
-	bottom:30%;
-	left:38%;
+	 width:400px;
+	 position:relative;
+	 bottom:-5%;
+	 left:5%;
+
  }
  button :hover
  {
@@ -110,20 +115,29 @@ button
 	 
  }
  input {
-	 text-align:left;
-	 border-radius:10px;
-	 width:95%;
-	 height:50px;
-	 position:relative;
-	bottom:10%;
-	left:3%;
-	font-size:15px;
-	transition:.2s linear;
-	box-shadow:1px 5px 12px black;
+	 text-align:center;
+	 border-radius:5px;
+	 width:400px;
+	 height:32px;
+	  position:relative;
+	bottom:14%;
+	left:8%;
+	box-shadow:5px 5px 15px black;
  }
  .box input:hover {
 	 transform:scale(1.1);
 	 }
+ textarea
+ {
+	 text-align:center;
+	 border-radius:5px;
+	 width:400px;
+	 height:50px;
+	position:relative;
+	bottom:18%;
+	left:10%;
+
+ }
  .text {
   color: black;
   font-size: 15px;
@@ -140,7 +154,6 @@ button
   bottom: 8px;
   text-align: center;
 }
-
 	 
 	
 	
